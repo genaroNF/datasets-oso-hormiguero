@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Apheanogaster', 'Camponotus', 'Cataglyphis', 'Colobopsis', 'Crematogaster', 'Dolichoderus', 'Formica', 'Lasius', 'Messor', 'Myrmica', 'Ponera', 'Tapinoma', 'Temnothorax', 'Tetramorium']
+
+roboflow:
+  workspace: djay-de-gier-fopbf
+  project: ant-object-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/djay-de-gier-fopbf/ant-object-detection/dataset/1
