@@ -1,0 +1,21 @@
+isNormalized: True
+separateByFrame: False
+set_of_datasets:
+  - name: test
+    img_folder: ./datasets/Djay de Gier - Indoor&Outdoor/test/images
+    annotation_folder: ./datasets/Djay de Gier - Indoor&Outdoor/test/labels
+    type: test
+  - name: train
+    img_folder: ./datasets/Djay de Gier - Indoor&Outdoor/train/images
+    annotation_folder: ./datasets/Djay de Gier - Indoor&Outdoor/train/labels
+    type: train
+  - name: valid
+    img_folder: ./datasets/Djay de Gier - Indoor&Outdoor/valid/images
+    annotation_folder: ./datasets/Djay de Gier - Indoor&Outdoor/valid/labels
+    type: validation
+csv_keys:
+  - 'class'
+  - 'x_center'
+  - 'y_center'
+  - 'width'
+  - 'height'
