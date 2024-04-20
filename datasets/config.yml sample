@@ -1,0 +1,18 @@
+set_datasets: [specify the path of all the folders in the dataset to be processed]
+    - name: # name of sub_dataset
+      img_folder: # path to the folder with the images
+      annotation_folder: # path to the folder with the anotations
+      type: # test/train/validation
+    - name: # name of sub_dataset
+      img_folder: # path to the folder with the images
+      annotation_folder: # path to the folder with the anotations
+      type: # test/train/validation
+    - ...
+csv_keys: [list of keys used by the anotations]
+  - frame
+  - id
+  - bbl
+  - bbt
+  - bbw
+  - bbh
+  - confidence_score

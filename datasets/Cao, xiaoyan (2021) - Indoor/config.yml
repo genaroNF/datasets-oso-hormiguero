@@ -1,0 +1,31 @@
+isNormalized: False
+separateByFrame: True
+set_of_datasets:
+  - name: Seq0001Object10Image94
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0001Object10Image94/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0001Object10Image94/gt/gt.txt
+    type: train
+  - name: Seq0002Object10Image94
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0002Object10Image94/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0002Object10Image94/gt/gt.txt
+    type: train
+  - name: Seq0003Object10Image94
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0003Object10Image94/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0003Object10Image94/gt/gt.txt
+    type: train
+  - name: Seq0004Object10Image94
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0004Object10Image94/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0004Object10Image94/gt/gt.txt
+    type: train
+  - name: Seq0005Object10Image94
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0005Object10Image94/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Indoor/Seq0005Object10Image94/gt/gt.txt
+    type: train
+csv_keys:
+  - frame
+  - id
+  - bbl
+  - bbt
+  - bbw
+  - bbh
+  - confidence_score

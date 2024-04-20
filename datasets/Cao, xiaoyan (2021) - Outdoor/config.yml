@@ -1,0 +1,31 @@
+isNormalized: False
+separateByFrame: True
+set_of_datasets:
+  - name: Seq0006Object21Image64
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0006Object21Image64/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0006Object21Image64/gt/gt.txt
+    type: train
+  - name: Seq0007Object26Image64
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0007Object26Image64/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0007Object26Image64/gt/gt.txt
+    type: train
+  - name: Seq0008Object31Image64
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0008Object31Image64/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0008Object31Image64/gt/gt.txt
+    type: train
+  - name: Seq0009Object50Image64
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0009Object50Image64/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0009Object50Image64/gt/gt.txt
+    type: train
+  - name: Seq0010Object30Image64
+    img_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0010Object30Image64/img
+    annotation_folder: ./datasets/Cao, xiaoyan (2021) - Outdoor/Seq0010Object30Image64/gt/gt.txt
+    type: train
+csv_keys:
+  - frame
+  - id
+  - bbl
+  - bbt
+  - bbw
+  - bbh
+  - confidence_score
