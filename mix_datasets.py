@@ -5,7 +5,7 @@ from generators.mix_datasets_custom import mix_datasets_selected
 
 def mix_datasets():
     print('Please select one of the following options:')
-    print('1. Mix of all the datasets.')
+    print('1. Mix all the datasets.')
     print('2. Mix the datasets with less slope.')
     print('3. Custom mix.')
     print('4. Exit.')

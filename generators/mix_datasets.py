@@ -33,13 +33,13 @@ def copy_files_to_destination(dataset, sub_dataset, slope=None):
     if (not os.path.exists(store_path)):
         Path(f'{store_path}').mkdir(parents=True, exist_ok=True)
 
-    for dir_path, _, filenames in os.walk(
+    for dir_path, _, files_names in os.walk(
         f"{PROCESS_PATH}/{dataset}/{sub_dataset['name']}"
     ):
         file_index = 1
         if slope:
-            filenames.sort()
-        for file in filenames:
+            files_names.sort()
+        for file in files_names:
             copy_file_to_destination(
                 store_path, dir_path, file, slope, file_index
             )

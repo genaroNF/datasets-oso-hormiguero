@@ -1,5 +1,6 @@
 from process_datasets import process_datasets
 from mix_datasets import mix_datasets
+from augment_datasets import augment_datasets
 
 
 if __name__ == '__main__':
@@ -14,7 +15,8 @@ if __name__ == '__main__':
         print('Please select one of the following options:')
         print('1. Process datasets for YOLO.')
         print('2. Create a mix of datasets.')
-        print('3. Exit.')
+        print('3. Augment datasets.')
+        print('4. Exit.')
         option = input('Input the number of the selected option: ')
         print('-' * 70)
 
@@ -26,6 +28,11 @@ if __name__ == '__main__':
         # Option 2 - Create a mix of datasets.
         elif option == '2':
             if (not mix_datasets()):
+                break
+
+        # Option 3 - Augment datasets.
+        elif option == '3':
+            if (not augment_datasets()):
                 break
 
         # Exit
