@@ -22,7 +22,7 @@ def augment_datasets():
         augment_sets()
         print('-' * 70)
     # Augment all the datasets
-    if option == '2':
+    elif option == '2':
         print('-' * 70)
         shutil.rmtree(MIX_PATH)
         mix_all()
