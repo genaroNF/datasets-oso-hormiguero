@@ -30,7 +30,7 @@ if __name__ == '__main__':
             if (not mix_datasets()):
                 break
 
-        # Option 2 - Create a mix of datasets.
+        # Option 3 - Augment datasets.
         elif option == '3':
             if (not augment_datasets()):
                 break
